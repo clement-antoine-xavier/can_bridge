@@ -19,7 +19,7 @@ arduino-cli core install arduino:samd
 From the repository root:
 
 ```sh
-arduino-cli compile --fqbn arduino:samd:mkrwifi1010 can-bridge.ino
+arduino-cli compile --fqbn arduino:samd:mkrwifi1010 can_bridge.ino
 ```
 
 ## Upload (optional)
@@ -27,7 +27,7 @@ arduino-cli compile --fqbn arduino:samd:mkrwifi1010 can-bridge.ino
 Connect the board, then upload to its serial port (e.g. `/dev/cu.usbmodem*` on macOS):
 
 ```sh
-arduino-cli upload -p <PORT> --fqbn arduino:samd:mkrwifi1010 can-bridge.ino
+arduino-cli upload -p <PORT> --fqbn arduino:samd:mkrwifi1010 can_bridge.ino
 ```
 
 ## Continuous integration
