@@ -85,6 +85,6 @@ private:
   // ---------------------------------------------------------------------
   const char *_host;
   uint16_t _port;
-  WiFiClient _client;
+  mutable WiFiClient _client;
   bool _connected = false;
 };

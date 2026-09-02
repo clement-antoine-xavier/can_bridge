@@ -37,7 +37,8 @@ jobs:
           fqbn: arduino:samd:mkrwifi1010
           platforms: |
             - name: "arduino:samd"
-          libraries: "[]"
+          libraries: |
+            - name: "WiFiNINA"
           sketch-paths: .
           cli-compile-flags: ""
           verbose: false
